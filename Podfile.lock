@@ -1,0 +1,38 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - CalendarKit (0.4.3):
+    - DateToolsSwift
+    - Neon
+  - DateToolsSwift (4.0.0)
+  - Neon (0.4.0)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - Stripe (13.2.0)
+
+DEPENDENCIES:
+  - CalendarKit
+  - Parse
+  - Stripe
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - CalendarKit
+    - DateToolsSwift
+    - Neon
+    - Parse
+    - Stripe
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CalendarKit: 97f85da47a9dd8bd9eba5d638b8717e7acefa352
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  Stripe: 2c69e216061d54d9c538204bb4f58bd597ddfc5b
+
+PODFILE CHECKSUM: cbd953fc836bd4d47fe3cc84cb715bdf79923e96
+
+COCOAPODS: 1.5.3

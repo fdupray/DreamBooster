@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67AAE8C1CE5781EE269A14C1 /* Pods_Booster_DreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD62591D75BE6781582F335D /* Pods_Booster_DreamUITests.framework */; };
+		67E233BB5F93576A6C27A0B5 /* Pods_Booster_Dream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D00ED3432D94B713001FC5 /* Pods_Booster_Dream.framework */; };
+		775CCA30BA6C4FD3C4671DEE /* Pods_Booster_DreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9564338ABE9BB140BFD89B1 /* Pods_Booster_DreamTests.framework */; };
+		81233C04214FF3300015BFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81233C03214FF3300015BFD5 /* AppDelegate.swift */; };
+		81233C06214FF3300015BFD5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81233C05214FF3300015BFD5 /* FirstViewController.swift */; };
+		81233C08214FF3300015BFD5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81233C07214FF3300015BFD5 /* SecondViewController.swift */; };
+		81233C0B214FF3300015BFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81233C09214FF3300015BFD5 /* Main.storyboard */; };
+		81233C0D214FF3320015BFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81233C0C214FF3320015BFD5 /* Assets.xcassets */; };
+		81233C10214FF3320015BFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81233C0E214FF3320015BFD5 /* LaunchScreen.storyboard */; };
+		81233C1B214FF3330015BFD5 /* Booster_DreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81233C1A214FF3330015BFD5 /* Booster_DreamTests.swift */; };
+		81233C26214FF3330015BFD5 /* Booster_DreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81233C25214FF3330015BFD5 /* Booster_DreamUITests.swift */; };
+		81233C34214FF38A0015BFD5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81233C33214FF38A0015BFD5 /* Login.storyboard */; };
+		81233C38214FFD1F0015BFD5 /* DBRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81233C37214FFD1F0015BFD5 /* DBRoundedButton.swift */; };
+		81B88B0E215D2C0500980E41 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B88B0D215D2C0500980E41 /* SignInViewController.swift */; };
+		81B88B10215D313900980E41 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B88B0F215D313900980E41 /* SignUpViewController.swift */; };
+		81B88B13215D468B00980E41 /* DBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B88B12215D468B00980E41 /* DBUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81233C17214FF3330015BFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81233BF8214FF3300015BFD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81233BFF214FF3300015BFD5;
+			remoteInfo = "Booster Dream";
+		};
+		81233C22214FF3330015BFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81233BF8214FF3300015BFD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81233BFF214FF3300015BFD5;
+			remoteInfo = "Booster Dream";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1006325BC81945041C1E59E0 /* Pods-Booster DreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booster DreamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Booster DreamTests/Pods-Booster DreamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42624F2A95AB5C85356C377F /* Pods-Booster DreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booster DreamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Booster DreamUITests/Pods-Booster DreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55152D8A8BCC261F4FBC1EAC /* Pods-Booster Dream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booster Dream.release.xcconfig"; path = "Pods/Target Support Files/Pods-Booster Dream/Pods-Booster Dream.release.xcconfig"; sourceTree = "<group>"; };
+		5A5F3E6F4F5598DE2143884A /* Pods-Booster DreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booster DreamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Booster DreamTests/Pods-Booster DreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		68D00ED3432D94B713001FC5 /* Pods_Booster_Dream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Booster_Dream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81233C00214FF3300015BFD5 /* Booster Dream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Booster Dream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81233C03214FF3300015BFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81233C05214FF3300015BFD5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		81233C07214FF3300015BFD5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		81233C0A214FF3300015BFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81233C0C214FF3320015BFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81233C0F214FF3320015BFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81233C11214FF3320015BFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81233C16214FF3330015BFD5 /* Booster DreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Booster DreamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81233C1A214FF3330015BFD5 /* Booster_DreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booster_DreamTests.swift; sourceTree = "<group>"; };
+		81233C1C214FF3330015BFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81233C21214FF3330015BFD5 /* Booster DreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Booster DreamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81233C25214FF3330015BFD5 /* Booster_DreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booster_DreamUITests.swift; sourceTree = "<group>"; };
+		81233C27214FF3330015BFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81233C33214FF38A0015BFD5 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		81233C37214FFD1F0015BFD5 /* DBRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBRoundedButton.swift; sourceTree = "<group>"; };
+		81B88B0D215D2C0500980E41 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		81B88B0F215D313900980E41 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		81B88B12215D468B00980E41 /* DBUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUser.swift; sourceTree = "<group>"; };
+		8288216ACD067664A0A4A12A /* Pods-Booster DreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booster DreamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Booster DreamUITests/Pods-Booster DreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9564338ABE9BB140BFD89B1 /* Pods_Booster_DreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Booster_DreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD62591D75BE6781582F335D /* Pods_Booster_DreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Booster_DreamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D838DA83690794A3E52FDADF /* Pods-Booster Dream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booster Dream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Booster Dream/Pods-Booster Dream.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81233BFD214FF3300015BFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E233BB5F93576A6C27A0B5 /* Pods_Booster_Dream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81233C13214FF3330015BFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775CCA30BA6C4FD3C4671DEE /* Pods_Booster_DreamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81233C1E214FF3330015BFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AAE8C1CE5781EE269A14C1 /* Pods_Booster_DreamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ADC7829FDB17822E667A3F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D838DA83690794A3E52FDADF /* Pods-Booster Dream.debug.xcconfig */,
+				55152D8A8BCC261F4FBC1EAC /* Pods-Booster Dream.release.xcconfig */,
+				1006325BC81945041C1E59E0 /* Pods-Booster DreamTests.debug.xcconfig */,
+				5A5F3E6F4F5598DE2143884A /* Pods-Booster DreamTests.release.xcconfig */,
+				42624F2A95AB5C85356C377F /* Pods-Booster DreamUITests.debug.xcconfig */,
+				8288216ACD067664A0A4A12A /* Pods-Booster DreamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6834B68C480728BB00A5ECC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68D00ED3432D94B713001FC5 /* Pods_Booster_Dream.framework */,
+				B9564338ABE9BB140BFD89B1 /* Pods_Booster_DreamTests.framework */,
+				CD62591D75BE6781582F335D /* Pods_Booster_DreamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81233BF7214FF3300015BFD5 = {
+			isa = PBXGroup;
+			children = (
+				81233C02214FF3300015BFD5 /* Booster Dream */,
+				81233C19214FF3330015BFD5 /* Booster DreamTests */,
+				81233C24214FF3330015BFD5 /* Booster DreamUITests */,
+				81233C01214FF3300015BFD5 /* Products */,
+				0ADC7829FDB17822E667A3F6 /* Pods */,
+				6834B68C480728BB00A5ECC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81233C01214FF3300015BFD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81233C00214FF3300015BFD5 /* Booster Dream.app */,
+				81233C16214FF3330015BFD5 /* Booster DreamTests.xctest */,
+				81233C21214FF3330015BFD5 /* Booster DreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81233C02214FF3300015BFD5 /* Booster Dream */ = {
+			isa = PBXGroup;
+			children = (
+				81B88B11215D41A600980E41 /* PFObjects */,
+				81233C35214FFCF60015BFD5 /* Custom UI */,
+				81233C03214FF3300015BFD5 /* AppDelegate.swift */,
+				81233C05214FF3300015BFD5 /* FirstViewController.swift */,
+				81233C07214FF3300015BFD5 /* SecondViewController.swift */,
+				81B88B0C215D2A5D00980E41 /* Login */,
+				81233C33214FF38A0015BFD5 /* Login.storyboard */,
+				81233C09214FF3300015BFD5 /* Main.storyboard */,
+				81233C0C214FF3320015BFD5 /* Assets.xcassets */,
+				81233C0E214FF3320015BFD5 /* LaunchScreen.storyboard */,
+				81233C11214FF3320015BFD5 /* Info.plist */,
+			);
+			path = "Booster Dream";
+			sourceTree = "<group>";
+		};
+		81233C19214FF3330015BFD5 /* Booster DreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				81233C1A214FF3330015BFD5 /* Booster_DreamTests.swift */,
+				81233C1C214FF3330015BFD5 /* Info.plist */,
+			);
+			path = "Booster DreamTests";
+			sourceTree = "<group>";
+		};
+		81233C24214FF3330015BFD5 /* Booster DreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81233C25214FF3330015BFD5 /* Booster_DreamUITests.swift */,
+				81233C27214FF3330015BFD5 /* Info.plist */,
+			);
+			path = "Booster DreamUITests";
+			sourceTree = "<group>";
+		};
+		81233C35214FFCF60015BFD5 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				81233C36214FFD060015BFD5 /* Buttons */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		81233C36214FFD060015BFD5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				81233C37214FFD1F0015BFD5 /* DBRoundedButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		81B88B0C215D2A5D00980E41 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				81B88B0D215D2C0500980E41 /* SignInViewController.swift */,
+				81B88B0F215D313900980E41 /* SignUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		81B88B11215D41A600980E41 /* PFObjects */ = {
+			isa = PBXGroup;
+			children = (
+				81B88B12215D468B00980E41 /* DBUser.swift */,
+			);
+			path = PFObjects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81233BFF214FF3300015BFD5 /* Booster Dream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81233C2A214FF3330015BFD5 /* Build configuration list for PBXNativeTarget "Booster Dream" */;
+			buildPhases = (
+				E6453AAD2DB8F2A2F3C546D5 /* [CP] Check Pods Manifest.lock */,
+				81233BFC214FF3300015BFD5 /* Sources */,
+				81233BFD214FF3300015BFD5 /* Frameworks */,
+				81233BFE214FF3300015BFD5 /* Resources */,
+				5A0CC215AE3CA3E27A82A983 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Booster Dream";
+			productName = "Booster Dream";
+			productReference = 81233C00214FF3300015BFD5 /* Booster Dream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81233C15214FF3330015BFD5 /* Booster DreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81233C2D214FF3330015BFD5 /* Build configuration list for PBXNativeTarget "Booster DreamTests" */;
+			buildPhases = (
+				8C172DF95594ED7216106B22 /* [CP] Check Pods Manifest.lock */,
+				81233C12214FF3330015BFD5 /* Sources */,
+				81233C13214FF3330015BFD5 /* Frameworks */,
+				81233C14214FF3330015BFD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81233C18214FF3330015BFD5 /* PBXTargetDependency */,
+			);
+			name = "Booster DreamTests";
+			productName = "Booster DreamTests";
+			productReference = 81233C16214FF3330015BFD5 /* Booster DreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81233C20214FF3330015BFD5 /* Booster DreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81233C30214FF3330015BFD5 /* Build configuration list for PBXNativeTarget "Booster DreamUITests" */;
+			buildPhases = (
+				B6900DECE76FDFFF025F068B /* [CP] Check Pods Manifest.lock */,
+				81233C1D214FF3330015BFD5 /* Sources */,
+				81233C1E214FF3330015BFD5 /* Frameworks */,
+				81233C1F214FF3330015BFD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81233C23214FF3330015BFD5 /* PBXTargetDependency */,
+			);
+			name = "Booster DreamUITests";
+			productName = "Booster DreamUITests";
+			productReference = 81233C21214FF3330015BFD5 /* Booster DreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81233BF8214FF3300015BFD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Booster Dream";
+				TargetAttributes = {
+					81233BFF214FF3300015BFD5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					81233C15214FF3330015BFD5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 81233BFF214FF3300015BFD5;
+					};
+					81233C20214FF3330015BFD5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 81233BFF214FF3300015BFD5;
+					};
+				};
+			};
+			buildConfigurationList = 81233BFB214FF3300015BFD5 /* Build configuration list for PBXProject "Booster Dream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81233BF7214FF3300015BFD5;
+			productRefGroup = 81233C01214FF3300015BFD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81233BFF214FF3300015BFD5 /* Booster Dream */,
+				81233C15214FF3330015BFD5 /* Booster DreamTests */,
+				81233C20214FF3330015BFD5 /* Booster DreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81233BFE214FF3300015BFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81233C34214FF38A0015BFD5 /* Login.storyboard in Resources */,
+				81233C10214FF3320015BFD5 /* LaunchScreen.storyboard in Resources */,
+				81233C0D214FF3320015BFD5 /* Assets.xcassets in Resources */,
+				81233C0B214FF3300015BFD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81233C14214FF3330015BFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81233C1F214FF3330015BFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A0CC215AE3CA3E27A82A983 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Booster Dream/Pods-Booster Dream-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CalendarKit/CalendarKit.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Neon/Neon.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Neon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Booster Dream/Pods-Booster Dream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C172DF95594ED7216106B22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Booster DreamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6900DECE76FDFFF025F068B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Booster DreamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6453AAD2DB8F2A2F3C546D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Booster Dream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81233BFC214FF3300015BFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B88B10215D313900980E41 /* SignUpViewController.swift in Sources */,
+				81233C08214FF3300015BFD5 /* SecondViewController.swift in Sources */,
+				81233C04214FF3300015BFD5 /* AppDelegate.swift in Sources */,
+				81233C06214FF3300015BFD5 /* FirstViewController.swift in Sources */,
+				81B88B0E215D2C0500980E41 /* SignInViewController.swift in Sources */,
+				81B88B13215D468B00980E41 /* DBUser.swift in Sources */,
+				81233C38214FFD1F0015BFD5 /* DBRoundedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81233C12214FF3330015BFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81233C1B214FF3330015BFD5 /* Booster_DreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81233C1D214FF3330015BFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81233C26214FF3330015BFD5 /* Booster_DreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81233C18214FF3330015BFD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81233BFF214FF3300015BFD5 /* Booster Dream */;
+			targetProxy = 81233C17214FF3330015BFD5 /* PBXContainerItemProxy */;
+		};
+		81233C23214FF3330015BFD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81233BFF214FF3300015BFD5 /* Booster Dream */;
+			targetProxy = 81233C22214FF3330015BFD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81233C09214FF3300015BFD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81233C0A214FF3300015BFD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81233C0E214FF3320015BFD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81233C0F214FF3320015BFD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81233C28214FF3330015BFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81233C29214FF3330015BFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81233C2B214FF3330015BFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D838DA83690794A3E52FDADF /* Pods-Booster Dream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWUCNKTEJC;
+				INFOPLIST_FILE = "Booster Dream/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BoosterDream.BoosterDream.DreamBooster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81233C2C214FF3330015BFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55152D8A8BCC261F4FBC1EAC /* Pods-Booster Dream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWUCNKTEJC;
+				INFOPLIST_FILE = "Booster Dream/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BoosterDream.BoosterDream.DreamBooster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81233C2E214FF3330015BFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1006325BC81945041C1E59E0 /* Pods-Booster DreamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWUCNKTEJC;
+				INFOPLIST_FILE = "Booster DreamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BoosterDream.BoosterDream.Booster-DreamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Booster Dream.app/Booster Dream";
+			};
+			name = Debug;
+		};
+		81233C2F214FF3330015BFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5F3E6F4F5598DE2143884A /* Pods-Booster DreamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWUCNKTEJC;
+				INFOPLIST_FILE = "Booster DreamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BoosterDream.BoosterDream.Booster-DreamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Booster Dream.app/Booster Dream";
+			};
+			name = Release;
+		};
+		81233C31214FF3330015BFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42624F2A95AB5C85356C377F /* Pods-Booster DreamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWUCNKTEJC;
+				INFOPLIST_FILE = "Booster DreamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BoosterDream.BoosterDream.Booster-DreamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Booster Dream";
+			};
+			name = Debug;
+		};
+		81233C32214FF3330015BFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8288216ACD067664A0A4A12A /* Pods-Booster DreamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWUCNKTEJC;
+				INFOPLIST_FILE = "Booster DreamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BoosterDream.BoosterDream.Booster-DreamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Booster Dream";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81233BFB214FF3300015BFD5 /* Build configuration list for PBXProject "Booster Dream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81233C28214FF3330015BFD5 /* Debug */,
+				81233C29214FF3330015BFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81233C2A214FF3330015BFD5 /* Build configuration list for PBXNativeTarget "Booster Dream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81233C2B214FF3330015BFD5 /* Debug */,
+				81233C2C214FF3330015BFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81233C2D214FF3330015BFD5 /* Build configuration list for PBXNativeTarget "Booster DreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81233C2E214FF3330015BFD5 /* Debug */,
+				81233C2F214FF3330015BFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81233C30214FF3330015BFD5 /* Build configuration list for PBXNativeTarget "Booster DreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81233C31214FF3330015BFD5 /* Debug */,
+				81233C32214FF3330015BFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81233BF8214FF3300015BFD5 /* Project object */;
+}

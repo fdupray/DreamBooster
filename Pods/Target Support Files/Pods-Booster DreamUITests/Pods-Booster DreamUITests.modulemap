@@ -1,0 +1,6 @@
+framework module Pods_Booster_DreamUITests {
+  umbrella header "Pods-Booster DreamUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
